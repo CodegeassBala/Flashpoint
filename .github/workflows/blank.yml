@@ -37,6 +37,3 @@ jobs:
 
     - name: Run GoTest
       run: go test -v ./...  # Run Go unit tests
-
-    - name: Build the Go project
-      run: go build -v ./...  # Build the Go project (this step can be omitted if you don't need to build)

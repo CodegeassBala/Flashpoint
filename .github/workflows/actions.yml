@@ -33,7 +33,7 @@ jobs:
         run: go mod tidy # Ensure Go dependencies are up to date
 
       - name: Run GoLint
-        run: go run golang.org/x/lint/golint ../.. # Run GoLint to check for code style issues
+        run: go get golang.org/x/lint/golint && go run golang.org/x/lint/golint ../.. # Run GoLint to check for code style issues
 
       - name: Run GoTest
         run: go test -v ../.. # Run Go unit tests

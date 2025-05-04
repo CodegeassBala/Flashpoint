@@ -1,4 +1,4 @@
-module github.com/CodegeassBala/Flashpoint
+module flashpoint
 
 go 1.24.1
 

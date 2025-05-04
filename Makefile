@@ -9,3 +9,9 @@ run: build
 
 dev: 
 	go run $(CMD_PATH)
+
+test:
+	go test ./...
+
+test-cover:
+	go test -cover ./...
